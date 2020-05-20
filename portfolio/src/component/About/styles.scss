@@ -1,0 +1,19 @@
+@import '../../common-var.scss';
+
+.about {
+    .aboutMe {
+        ul {
+            margin: $margin-32 0;
+
+            li {
+                padding: $padding-8 0px;
+                display: flex;
+
+                strong {
+                    width: 140px;
+                    font-family: Poppins-Bold;
+                }
+            }
+        }
+    }
+}

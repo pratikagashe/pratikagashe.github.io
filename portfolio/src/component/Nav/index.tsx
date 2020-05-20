@@ -18,19 +18,19 @@ const Nav: React.FunctionComponent = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link color="inherit">About</Link>{' '}
+                                <Link color="inherit">About</Link>
                             </li>
                             <li>
-                                <Link color="inherit">Resume</Link>{' '}
+                                <Link color="inherit">Resume</Link>
                             </li>
                             <li>
-                                <Link color="inherit">Skills</Link>{' '}
+                                <Link color="inherit">Skills</Link>
                             </li>
                             <li>
-                                <Link color="inherit">Projects</Link>{' '}
+                                <Link color="inherit">Projects</Link>
                             </li>
                             <li>
-                                <Link color="inherit">Blogs</Link>{' '}
+                                <Link color="inherit">Blogs</Link>
                             </li>
                         </ul>
                     </Grid>

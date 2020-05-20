@@ -1,10 +1,18 @@
 $unit: 0.5rem; // 8px
 
 // Padding
+$padding-4: $unit / 2;
 $padding-8: $unit;
 $padding-16: $unit * 2;
 $padding-24: $unit * 3;
 $padding-32: $unit * 4;
+
+// Margin
+$margin-4: $unit / 2;
+$margin-8: $unit;
+$margin-16: $unit * 2;
+$margin-24: $unit * 3;
+$margin-32: $unit * 4;
 
 // colors
 $black-000: #000000;
