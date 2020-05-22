@@ -1,0 +1,35 @@
+@import '../../common-var.scss';
+
+.skills {
+    .skillSet {
+        padding-top: 0.25rem;
+
+        h3,
+        span {
+            font-weight: 900;
+            font-size: 1.25rem;
+            margin: 0;
+            line-height: 3rem;
+        }
+
+        .progress {
+            background-color: $black-1A;
+            height: 0.75rem;
+            width: 100%;
+            border-radius: 0.25rem;
+
+            .progressBar {
+                position: relative;
+                background-color: $yellow-ffb;
+                height: 0.75rem;
+                border-radius: 0.25rem;
+
+                span {
+                    position: absolute;
+                    right: 0;
+                    top: -3rem;
+                }
+            }
+        }
+    }
+}

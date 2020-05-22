@@ -16,8 +16,10 @@ $margin-32: $unit * 4;
 
 // colors
 $black-000: #000000;
+$black-1A: #1a1a1a;
 $white-fff: #ffffff;
 $yellow-ffb: #ffbd39;
+$grey-999: #999999;
 
 @mixin transition($time) {
     transition: all $time;

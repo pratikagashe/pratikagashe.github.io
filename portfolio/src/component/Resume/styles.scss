@@ -1,0 +1,60 @@
+@import '../../common-var.scss';
+
+.resume {
+    .resumeTiles {
+        padding: $padding-24;
+        background-color: $black-1A;
+        border-radius: 0.25rem;
+        box-sizing: border-box;
+        height: 100%;
+
+        p {
+            margin: 0;
+            color: $grey-999;
+        }
+
+        .year {
+            font-family: Poppins-Black;
+            font-size: 1.5rem;
+            color: $yellow-ffb;
+        }
+
+        .cardTitle {
+            font-size: 1.5rem;
+            color: $white-fff;
+            margin: $margin-16 0px;
+        }
+
+        .cardSubText {
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            font-size: 0.85rem;
+            margin: $margin-16 0px;
+        }
+
+        ul {
+            li {
+                position: relative;
+                margin: 0.5rem 0px;
+                padding-left: 1.25rem;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 0.4rem;
+                    height: 0.4rem;
+                    border-radius: 100%;
+                    background: #999999;
+                    position: absolute;
+                    left: 0;
+                    top: 0.6rem;
+                }
+            }
+        }
+    }
+
+    .downloadResume {
+        text-align: center;
+        margin-top: 3rem;
+    }
+}

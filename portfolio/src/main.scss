@@ -82,13 +82,42 @@ ol {
     }
 
     .shadowText {
-        font-size: 6rem;
+        font-size: 7rem;
         line-height: 1;
         margin: 0;
         opacity: 0.15;
-        margin-top: -2.35rem;
+        margin-top: -2.7rem;
         margin-left: -1.15rem;
         font-family: Poppins-Black;
+    }
+
+    p {
+        margin-top: -3rem;
+    }
+
+    &--centered {
+        text-align: center;
+
+        .shadowText {
+            margin-left: 0px;
+        }
+    }
+}
+
+.subTitle {
+    width: 100%;
+    color: $yellow-ffb;
+    font-size: 1.75rem;
+    text-align: center;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 0.125rem;
+        margin: auto;
+        margin-top: 0.5rem;
+        background-color: $yellow-ffb;
     }
 }
 
@@ -146,5 +175,10 @@ ol {
 
     &.yellowFilled {
         background-color: $yellow-ffb;
+    }
+
+    &.MuiButton-containedSizeLarge {
+        padding: 1.75rem 3.25rem !important;
+        border-radius: 2.75rem !important;
     }
 }
