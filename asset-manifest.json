@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa436abf.chunk.css",
+    "main.js": "/static/js/main.b05c996d.chunk.js",
+    "main.js.map": "/static/js/main.b05c996d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/js/2.2db8e520.chunk.js": "/static/js/2.2db8e520.chunk.js",
+    "static/js/2.2db8e520.chunk.js.map": "/static/js/2.2db8e520.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bcbda32c5aa909d913fe01fda0c55d68.js": "/precache-manifest.bcbda32c5aa909d913fe01fda0c55d68.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fa436abf.chunk.css.map": "/static/css/main.fa436abf.chunk.css.map",
+    "static/js/2.2db8e520.chunk.js.LICENSE.txt": "/static/js/2.2db8e520.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/Poppins-Regular.41e8dead.ttf",
+    "static/media/about.jpg": "/static/media/about.2b4a821e.jpg",
+    "static/media/heroImage.jpg": "/static/media/heroImage.2b4a821e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/js/2.2db8e520.chunk.js",
+    "static/css/main.fa436abf.chunk.css",
+    "static/js/main.b05c996d.chunk.js"
+  ]
+}
