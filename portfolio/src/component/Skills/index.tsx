@@ -47,7 +47,7 @@ const skillSet = [
 
 const Skils: React.FunctionComponent = () => {
     return (
-        <div className="skills section">
+        <div className="skills section" id="skills">
             <Grid
                 container
                 justify="space-between"

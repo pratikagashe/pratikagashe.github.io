@@ -133,7 +133,7 @@ const workExperience = [
 
 const Resume: React.FunctionComponent = () => {
     return (
-        <div className="resume section">
+        <div className="resume section" id="resume">
             <Grid
                 container
                 justify="space-between"

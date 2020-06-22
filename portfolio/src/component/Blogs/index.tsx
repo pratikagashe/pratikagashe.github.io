@@ -5,7 +5,7 @@ import './styles.scss'
 
 const Blogs: React.FunctionComponent = () => {
     return (
-        <div className="blogs section">
+        <div className="blogs section" id="blogs">
             <Grid
                 container
                 justify="space-between"

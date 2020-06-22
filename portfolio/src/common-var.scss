@@ -26,3 +26,39 @@ $grey-999: #999999;
     -webkit-transition: all $time;
     -moz-transition: all $time;
 }
+
+$mobile-breakpoint: 480px;
+$tablet-portrait-breakpoint: 768px;
+$tablet-landscape-breakpoint: 1040px;
+
+// styles are written desktop-first
+
+@mixin desktop() {
+    @media screen and (min-width: $tablet-landscape-breakpoint+1) {
+        @content;
+    }
+}
+
+@mixin tabletLandscape() {
+    @media screen and (max-width: $tablet-landscape-breakpoint) {
+        @content;
+    }
+}
+
+@mixin tabletLandscapeOnly() {
+    @media screen and (min-width: $tablet-portrait-breakpoint) and (max-width: $tablet-landscape-breakpoint) {
+        @content;
+    }
+}
+
+@mixin tabletPortrait() {
+    @media screen and (max-width: $tablet-portrait-breakpoint) {
+        @content;
+    }
+}
+
+@mixin mobile() {
+    @media screen and (max-width: $mobile-breakpoint) {
+        @content;
+    }
+}

@@ -63,9 +63,12 @@ ol {
 }
 
 .container {
+    width: 100%;
     max-width: 1100px;
     display: block;
     margin: auto;
+    padding: 0 $padding-24;
+    box-sizing: border-box;
 }
 
 .section {
@@ -102,6 +105,33 @@ ol {
             margin-left: 0px;
         }
     }
+
+    @include tabletPortrait() {
+        h3 {
+            font-size: 2.75rem;
+        }
+        .shadowText {
+            font-size: 5rem;
+            margin-top: -1.25rem;
+            margin-left: 0rem;
+        }
+        p {
+            margin-top: -1.5rem;
+        }
+    }
+
+    @include mobile() {
+        h3 {
+            font-size: 2.25rem;
+        }
+        .shadowText {
+            font-size: 4rem;
+            margin-top: -1.25rem;
+        }
+        p {
+            margin-top: -1.5rem;
+        }
+    }
 }
 
 .subTitle {
@@ -118,6 +148,10 @@ ol {
         margin: auto;
         margin-top: 0.5rem;
         background-color: $yellow-ffb;
+    }
+
+    @include mobile() {
+        font-size: 1.5rem;
     }
 }
 
@@ -180,5 +214,38 @@ ol {
     &.MuiButton-containedSizeLarge {
         padding: 1.75rem 3.25rem !important;
         border-radius: 2.75rem !important;
+
+        @include mobile() {
+            padding: 1.25rem 3rem !important;
+        }
+    }
+}
+
+// Responsive
+
+@include tabletLandscapeOnly() {
+    .MuiGrid-grid-md-6 {
+        flex-grow: 0 !important;
+        max-width: 50% !important;
+        flex-basis: 50% !important;
+    }
+}
+
+.hide-desktop {
+    @include desktop() {
+        display: none !important;
+    }
+}
+
+.hide-tablet {
+    // covers portrait and landscape
+    @media screen and (min-width: $mobile-breakpoint+1) and (max-width: $tablet-landscape-breakpoint) {
+        display: none !important;
+    }
+}
+
+.hide-mobile {
+    @include mobile() {
+        display: none !important;
     }
 }

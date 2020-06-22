@@ -31,5 +31,43 @@
                 }
             }
         }
+
+        @include tabletPortrait() {
+            h3,
+            span {
+                font-size: 1.15rem;
+                line-height: 2.25rem;
+            }
+
+            .progress {
+                height: 0.35rem;
+                .progressBar {
+                    height: 0.35rem;
+
+                    span {
+                        top: -2.25rem;
+                    }
+                }
+            }
+        }
+
+        @include mobile() {
+            h3,
+            span {
+                font-size: 1rem;
+                line-height: 2.25rem;
+            }
+
+            .progress {
+                height: 0.35rem;
+                .progressBar {
+                    height: 0.35rem;
+
+                    span {
+                        top: -2.25rem;
+                    }
+                }
+            }
+        }
     }
 }

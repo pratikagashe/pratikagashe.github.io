@@ -5,14 +5,14 @@ import './styles.scss'
 
 const About: React.FunctionComponent = () => {
     return (
-        <div className="about section">
+        <div className="about section" id="about">
             <Grid
                 container
                 justify="space-between"
                 alignItems="center"
                 spacing={3}
             >
-                <Grid item lg={5} md={5} sm={10} xs={10}>
+                <Grid item lg={5} md={5} sm={12} xs={12}>
                     <div className="aboutImage blackFrame blackFrame--style2">
                         <img
                             src={aboutImage}
@@ -21,7 +21,7 @@ const About: React.FunctionComponent = () => {
                         />
                     </div>
                 </Grid>
-                <Grid item lg={6} md={6} sm={10} xs={10}>
+                <Grid item lg={6} md={6} sm={12} xs={12}>
                     <div className="aboutMe">
                         <div className="title">
                             <h3>About Me</h3>

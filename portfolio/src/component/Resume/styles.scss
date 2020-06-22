@@ -51,6 +51,20 @@
                 }
             }
         }
+
+        @include mobile() {
+            .year {
+                font-size: 1.25rem;
+            }
+            .cardTitle {
+                font-size: 1.25rem;
+            }
+            ul {
+                li {
+                    font-size: 0.95rem;
+                }
+            }
+        }
     }
 
     .downloadResume {

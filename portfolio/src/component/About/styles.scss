@@ -13,7 +13,45 @@
                     width: 140px;
                     font-family: Poppins-Bold;
                 }
+
+                span {
+                    width: calc(100% - 140px);
+                    word-break: break-word;
+                }
             }
+        }
+    }
+
+    @include tabletLandscapeOnly() {
+        .MuiGrid-grid-md-6 {
+            flex-grow: 0 !important;
+            max-width: 100% !important;
+            flex-basis: 100% !important;
+        }
+
+        .aboutMe {
+            width: 465px;
+            display: block;
+            margin: auto;
+
+            .title {
+                text-align: center;
+
+                .shadowText {
+                    margin-left: 0px;
+                }
+            }
+
+            .yellowFilled {
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+
+    @include tabletLandscape() {
+        .MuiGrid-grid-lg-5 {
+            display: none;
         }
     }
 }
