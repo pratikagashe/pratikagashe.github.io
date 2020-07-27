@@ -1,6 +1,23 @@
 export const blogList = [
     {
         url:
+            'https://medium.com/make-it-heady/react-typescript-hooks-form-validation-with-formik-yup-and-material-ui-d4901efc0096',
+        image: 'https://miro.medium.com/max/2000/1*po9Yb7MoXsORWxjeNUs8SA.jpeg',
+        date: 'June 11, 2020',
+        readingTime: '4 mins',
+        title:
+            'React TypeScript Hooks: Form validation with Formik, Yup, and Material-UI',
+    },
+    {
+        url:
+            'https://medium.com/make-it-heady/deploying-create-react-app-on-heroku-from-github-49447561f670',
+        image: '',
+        date: 'June 4, 2020',
+        readingTime: '5 mins',
+        title: 'Deploying create-react-app on Heroku from GitHub',
+    },
+    {
+        url:
             'https://medium.com/make-it-heady/javascript-handle-date-in-any-timezone-with-daylight-saving-check-182657009310',
         image: 'https://miro.medium.com/max/2000/1*_WCnGDFdbj2DOe0aM9GOfA.png',
         date: 'May 5, 2020',

@@ -183,13 +183,13 @@ ol {
 
     &--style1 {
         &::after {
-            background-image: url(https://i.ya-webdesign.com/images/png-frames-black-1.png);
+            background-image: url('assets/images/frame1.png');
         }
     }
 
     &--style2 {
         &::after {
-            background-image: url(http://www.pngall.com/wp-content/uploads/2/Square-Frame-PNG-Photo.png);
+            background-image: url('assets/images/frame2.png');
         }
     }
 }

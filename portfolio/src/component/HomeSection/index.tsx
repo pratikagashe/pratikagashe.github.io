@@ -20,9 +20,14 @@ const HomeSection: React.FunctionComponent = () => {
                             <span className="yellowText">Pratik Agashe</span>
                         </h1>
                         <h2>A Sr.Front-End Developer</h2>
-                        <Button variant="contained" className="yellowFilled">
-                            My Work
-                        </Button>
+                        <a href="../../assets/cv.pdf" download>
+                            <Button
+                                variant="contained"
+                                className="yellowFilled"
+                            >
+                                Download CV
+                            </Button>
+                        </a>
                     </div>
                 </Grid>
                 <Grid item lg={7} md={7} sm={12} xs={12}>
