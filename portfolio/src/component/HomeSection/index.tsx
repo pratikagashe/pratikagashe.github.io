@@ -20,7 +20,12 @@ const HomeSection: React.FunctionComponent = () => {
                             <span className="yellowText">Pratik Agashe</span>
                         </h1>
                         <h2>A Sr.Front-End Developer</h2>
-                        <a href="../../assets/cv.pdf" download>
+                        <a
+                            href="https://pratikagashe.github.io/static/media/cv.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                        >
                             <Button
                                 variant="contained"
                                 className="yellowFilled"

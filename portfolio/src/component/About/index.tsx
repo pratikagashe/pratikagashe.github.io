@@ -85,9 +85,19 @@ const About: React.FunctionComponent = () => {
                                 </span>
                             </li>
                         </ul>
-                        <Button variant="contained" className="yellowFilled">
-                            Download CV
-                        </Button>
+                        <a
+                            href="https://pratikagashe.github.io/static/media/cv.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                        >
+                            <Button
+                                variant="contained"
+                                className="yellowFilled"
+                            >
+                                Download CV
+                            </Button>
+                        </a>
                     </div>
                 </Grid>
             </Grid>

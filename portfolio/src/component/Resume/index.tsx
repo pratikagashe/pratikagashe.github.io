@@ -196,13 +196,20 @@ const Resume: React.FunctionComponent = () => {
                     xs={12}
                     className="downloadResume"
                 >
-                    <Button
-                        variant="contained"
-                        className="yellowFilled"
-                        size="large"
+                    <a
+                        href="https://pratikagashe.github.io/static/media/cv.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
                     >
-                        Download CV
-                    </Button>
+                        <Button
+                            variant="contained"
+                            className="yellowFilled"
+                            size="large"
+                        >
+                            Download CV
+                        </Button>
+                    </a>
                 </Grid>
             </Grid>
         </div>
